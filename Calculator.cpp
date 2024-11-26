@@ -119,7 +119,7 @@ void input4(Angka &A) {
     cin >> A.input_angka[0];
 }
 
-void input5(Angka &A, double degree) {
+void input5(Angka &A, double &degree) {
     cout << "Masukkan sudut dalam derajat: ";
     cin >> degree;
 }
